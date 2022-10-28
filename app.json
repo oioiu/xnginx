@@ -1,0 +1,30 @@
+﻿{
+  "name": "随意",
+  "description": "随意",
+  "keywords": [
+    "vless"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "vmess or vless",
+      "value": "vless",
+      "required": true
+    },
+    "UUID": {
+      "description": "ID",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocketlj",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/oioiu/xnginx",
+  "repository": "https://github.com/oioiu/xnginx",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
